@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="resources.iptv.com.bulsat"
     name="IPTV com bulsat" 
-    version="171113.1" 
+    version="171113.2" 
     provider-name="vastril4o">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>

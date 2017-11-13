@@ -25,7 +25,7 @@ def save_live(live):
         ch_genre = channel['genre']
         ch_id = channel['channel']
         
-        play_list = play_list + '#EXTINF:-1 radio="%s" group-title="%s" tvg-logo="%s" tvg-id="%s",%s\n%s\n' % (ch_radio, ch_genre, ch_epg_name, ch_epg_name, ch_title, ch_sources)
+        play_list = play_list + '#EXTINF:-1 radio="%s" group-title="%s" tvg-logo="%s" tvg-id="%s",%s\n%s\n' % (ch_radio, ch_genre, ch_epg_name + '.png', ch_epg_name, ch_title, ch_sources)
         
     f_m3u = open(os.path.join(_files_path, '', 'bulsat.m3u'), 'wb+')
     f_m3u.write(play_list.encode('utf-8', 'replace'))

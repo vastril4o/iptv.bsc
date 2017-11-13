@@ -1,3 +1,9 @@
+171112.2
+- add .png to channel tv-logo tag [channel name + .png]
+
+171112.1
+- clear epg data from programs missing title
+
 17.11.12
 - epg xml download
 - epg xml write to file
