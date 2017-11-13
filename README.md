@@ -13,5 +13,5 @@ Download [add-on](https://github.com/vastril4o/kodi/raw/master/resources.iptv.co
 ## logos
 This folder contains logos for [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client).
 <br />
-Download [zip](https://github.com/vastril4o/kodi/raw/master/logos_256.zip)
+Download [zip](https://github.com/vastril4o/kodi/raw/master/logos.zip)
 <br /><br />
