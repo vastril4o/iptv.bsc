@@ -1,8 +1,8 @@
-17.11.13
+17.11.12
 - epg xml download
 - epg xml write to file
 
-17.11.12
+17.11.11
 - Login
 - Live m3u download
 - Live m3u write to file
