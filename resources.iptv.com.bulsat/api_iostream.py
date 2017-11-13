@@ -40,7 +40,8 @@ def save_epg(live):
         
         if channel.has_key('program'):
             for p in channel['program']:
-                w.addProgramme({'start': p['start'], 'stop': p['stop'], 'title': [(p['title'], u'')], 'desc': [(p['desc'], u'')], 'category': [(channel['genre'], u'')], 'channel': channel['epg_name']})    
+                if len(p['title']) > 0:
+                    w.addProgramme({'start': p['start'], 'stop': p['stop'], 'title': [(p['title'], u'')], 'desc': [(p['desc'], u'')], 'category': [(channel['genre'], u'')], 'channel': channel['epg_name']})    
     
     out = StringIO.StringIO()
     w.write(out, pretty_print=True)
