@@ -1,0 +1,14 @@
+17.11.13
+- epg xml download
+- epg xml write to file
+
+17.11.12
+- Login
+- Live m3u download
+- Live m3u write to file
+
+1.1
+- Init icon and fanart
+
+1.0
+- Initial Release
