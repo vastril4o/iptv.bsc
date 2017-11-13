@@ -1,3 +1,4 @@
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/icon.png)
 # resources.iptv.com.bulsat
 Addon for [bulsatcom](http://www.bulsat.com), this add-on will generate .m3u and .xml.gz files for channel stream and epg data.
 
