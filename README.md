@@ -5,13 +5,13 @@ Download [kodi](https://kodi.tv/)
 <br /><br />
 
 ## resources.iptv.com.bulsat
-Addon for bulsatcom, this addon will generate .m3u and .xml files for channel stream and epg data.
+Addon for bulsatcom, this addon will generate .m3u and .xml files for channel stream and epg data to be used in [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client)
 <br />
 Download [addon](https://github.com/vastril4o/kodi/raw/master/resources.iptv.com.bulsat.zip)
 <br /><br />
 
 ## logos
-This folder contains logos for [resources.iptv.com.bulsat](https://github.com/vastril4o/kodi/tree/master/resources.iptv.com.bulsat)
+This folder contains logos for [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client)
 <br />
 Download [zip](https://github.com/vastril4o/kodi/raw/master/logos_256.zip)
 <br /><br />
