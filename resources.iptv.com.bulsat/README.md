@@ -10,12 +10,12 @@ Addon for [bulsatcom](http://www.bulsat.com), this addon will generate .m3u and 
 ### Installation add-on
 * Install addon from zip.
 * Add User and Password in Settings.
-* Add file path location (weher files will be stored).
+* Add file path location (where files will be stored).
 * Click OK
 * Run addon again to generate files.
 
-### Setup IPTV Simple Client
-* Enable IPTV Simple Client if you missing TV section in Kodi else skip this. Add-on location in Kodi: Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client/Enable.
+### Installation / Setup IPTV Simple Client
+* Enable IPTV Simple Client if you missing TV section in Kodi else skip this. Add-on location in Kodi: Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client/Enable. If this add-on is missing, go to [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) wiki page.
 * Open IPTV Simple Client Settings
 * General - Location > Local Path
 * General - M3U Play List Path > <i>pont to generated .m3u file</i>
