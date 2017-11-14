@@ -1,6 +1,8 @@
 import xbmc
 import xbmcaddon
 
+import json
+
 import api_debug
 import api_data
 import api_login
@@ -52,6 +54,8 @@ else:
     api_debug.close_progress()
     
     if _iptv_pvr_reload == 'true':
-        xbmc.executebuiltin('XBMC.StopPVRManager')
+        jsonAction = '{"jsonrpc":"2.0","method":"Addons.SetAddonEnabled","params":{"addonid":"pvr.iptvsimple","enabled":"toggle"},"id":1}'
+        
+        xbmc.executeJSONRPC(jsonAction)
         xbmc.sleep(1000)
-        xbmc.executebuiltin('XBMC.StartPVRManager')
+        xbmc.executeJSONRPC(jsonAction)

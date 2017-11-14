@@ -28,7 +28,7 @@ def get_live(session):
     api_debug.show_notifycation('LIVE ' + str(r.status_code == requests.codes.ok))
     
     if r.status_code != requests.codes.ok:
-        return [{'title':unicode(r), 'genre':'', 'sources':'', 'epg_name':''}]
+        return [{}]
     else:
         # debug
         api_debug.log('LIVE ' + str(r.json()))
