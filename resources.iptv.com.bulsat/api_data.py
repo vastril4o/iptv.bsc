@@ -10,13 +10,13 @@ import api_debug
 
 _addon = xbmcaddon.Addon()
 _url = _addon.getSetting('settings_api_url')
-_url_live = _addon.getSetting('settings_api_url_live')
+_url_live = _addon.getSetting('settings_api_url_channel')
 _url_epg = _addon.getSetting('settings_api_url_epg')
 _url_logo = _addon.getSetting('settings_api_url_logo')
 _timeout = float(_addon.getSetting('settings_timeout'))
 
 
-def get_live(session):
+def get_channel(session):
     api_login._s.headers.update({'Access-Control-Request-Method': 'POST'})
     api_login._s.headers.update({'Access-Control-Request-Headers': 'ssbulsatapi'})
     api_login._s.headers.update({'SSBULSATAPI': session})
@@ -25,13 +25,13 @@ def get_live(session):
     r = api_login._s.post(_url + '/' + _url_live, timeout = _timeout, headers = api_login._ua)
     
     # debug
-    api_debug.show_notifycation('LIVE ' + str(r.status_code == requests.codes.ok))
+    api_debug.show_notifycation('Channel ' + str(r.status_code == requests.codes.ok))
     
     if r.status_code != requests.codes.ok:
         return [{}]
     else:
         # debug
-        api_debug.log('LIVE ' + str(r.json()))
+        api_debug.log('Channel ' + str(r.json()))
         
         return r.json()
 

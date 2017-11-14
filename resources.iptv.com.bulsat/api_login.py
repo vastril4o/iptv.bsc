@@ -49,7 +49,7 @@ def login(username, password):
     })
     
     # debug
-    api_debug.show_notifycation('LOGIN ' + r.headers['logged'])
-    api_debug.log('LOGIN ' + str(r.request.headers))
+    api_debug.show_notifycation('Login ' + r.headers['logged'])
+    api_debug.log('Login ' + str(r.request.headers))
     
     return session

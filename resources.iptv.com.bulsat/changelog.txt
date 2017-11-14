@@ -1,3 +1,6 @@
+171114.2
+- fix loading notification
+
 171114.1
 - reload m3u file in iptv simple client when run this addon (force iptv simple client to restart)
 
