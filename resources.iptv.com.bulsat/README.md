@@ -20,3 +20,7 @@ Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/3.png)
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/4.png)
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/5.png)
+
+### Issues (known)
+* Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported in [Kodi](https://kodi.tv), only .png
+* Channel .m3u stream cookie is expiring on every 2 hours, so you need to run add-on again to generate valid .m3u streem fail
