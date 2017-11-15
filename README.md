@@ -9,3 +9,8 @@ This folder contains logos for [IPTV Simple Client](http://kodi.wiki/view/Add-on
 <br />
 * Download [zip](https://github.com/vastril4o/kodi/raw/master/logos.zip)
 <br /><br />
+
+## Screenshot
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/screenshot1.jpg)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/screenshot2.jpg)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/screenshot3.jpg)
