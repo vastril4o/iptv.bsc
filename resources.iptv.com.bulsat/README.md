@@ -2,7 +2,7 @@
 Addon for [www.bulsat.com](http://www.bulsat.com), this add-on will generate .m3u and .xml.gz files for channel stream and epg data.
 
 ## Requirements
-* Acctive user registration in [www.bulsat.com](http://www.bulsat.com)
+* Active user registration in [www.bulsat.com](http://www.bulsat.com)
 * [Kodi](https://kodi.tv) media player
 * [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) to watch IPTV on Kodi
 * [logos](https://github.com/vastril4o/kodi_add-ons/raw/master/logos.zip) to import channels logos in [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client)
