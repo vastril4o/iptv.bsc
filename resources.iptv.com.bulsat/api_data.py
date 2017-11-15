@@ -12,7 +12,6 @@ _addon = xbmcaddon.Addon()
 _url = _addon.getSetting('settings_api_url')
 _url_live = _addon.getSetting('settings_api_url_channel')
 _url_epg = _addon.getSetting('settings_api_url_epg')
-_url_logo = _addon.getSetting('settings_api_url_logo')
 _timeout = float(_addon.getSetting('settings_timeout'))
 
 
@@ -48,14 +47,5 @@ def get_epg(live):
     # debug
     api_debug.show_notifycation('EPG ' + str(r.status_code == requests.codes.ok))
     api_debug.log('EPG ' + str(live))
-    
-    return live
-
-
-def get_logo(live):
-    r = api_login._s.get(_url + '/' + _url_logo, timeout = _timeout, headers = api_login._ua)
-    
-    # debug
-    api_debug.show_notifycation('LOGO ' + str(r.status_code == requests.codes.ok))
     
     return live

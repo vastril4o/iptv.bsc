@@ -12,7 +12,6 @@
 		<setting label="401" type="folder" id="settings_files_path" default="" option="writeable"/>
 		<setting id="sep41" label="3000" type="lsep"/>
 		<setting label="402" type="bool" id="settings_epg" default="false"/>
-		<setting label="403" type="bool" id="settings_logo" default="false"/>
 		<setting label="404" type="bool" id="settings_iptv_simple_reload" default="true"/>
     </category>
 
@@ -21,7 +20,6 @@
         <setting label="201" type="text" id="settings_api_url" default="https://api.iptv.bulsat.com"/>
         <setting label="202" type="text" id="settings_api_url_channel" default="tv/pcweb/live"/>
         <setting label="203" type="text" id="settings_api_url_epg" default="epg/short"/>
-        <setting label="204" type="text" id="settings_api_url_logo" default="logos/tvlogo.svg"/>
         <setting id="sep21" label="3000" type="lsep"/> 
 		<setting label="205" type="slider" id="settings_timeout" default="10" range="5,5,30" option="int" />
     </category>

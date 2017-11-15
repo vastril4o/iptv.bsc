@@ -1,26 +1,29 @@
-171114.2
+v171115.1
+- remove logo download from add-on (decoding .svg file in png is hard work for kodi)
+
+v171114.2
 - fix loading notification
 
-171114.1
+v171114.1
 - reload m3u file in iptv simple client when run this addon (force iptv simple client to restart)
 
-171113.2
+v171113.2
 - add .png to channel tv-logo tag [channel name + .png]
 
-171113.1
+v171113.1
 - clear epg data from programs missing title
 
-17.11.12
+v17.11.12
 - epg xml download
 - epg xml write to file
 
-17.11.11
+v17.11.11
 - Login
 - Live m3u download
 - Live m3u write to file
 
-1.1
+v1.1
 - Init icon and fanart
 
-1.0
+v1.0
 - Initial Release

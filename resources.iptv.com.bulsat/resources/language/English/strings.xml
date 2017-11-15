@@ -11,7 +11,6 @@
     <string id="201">API URL</string>
     <string id="202">API URL channel</string>
     <string id="203">API URL epg</string>
-    <string id="204">API URL logo</string>
 	<string id="205">Timeout request (s)</string>
     
     <!-- more -->
@@ -23,6 +22,5 @@
     <string id="4000">Files</string>
     <string id="401">Files path</string>
     <string id="402">Download EPG (channel info)</string>
-    <string id="403">Download logo</string>
     <string id="404">Reload IPTV Simple client</string>
 </strings>

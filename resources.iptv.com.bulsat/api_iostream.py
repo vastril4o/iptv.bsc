@@ -15,7 +15,7 @@ _addon = xbmcaddon.Addon()
 _files_path = _addon.getSetting('settings_files_path')
 
 
-def save_live(live):
+def save_channel(live):
     play_list = u'#EXTM3U\n'
     for i, channel in enumerate(live):
         ch_epg_name = channel['epg_name']
