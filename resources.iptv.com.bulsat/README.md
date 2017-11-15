@@ -7,16 +7,16 @@ Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files
 * [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) to watch IPTV on [Kodi](https://kodi.tv)
 * Channel [logos](https://github.com/vastril4o/kodi/raw/master/logos.zip) for [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client)
 
-### Installation add-on (resources.iptv.com.bulsat)
+## Installation add-on (resources.iptv.com.bulsat)
 * Install add-on from [zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.com.bulsat.zip)
 * Settings
-![alt text](https://github.com/vastril4o/kodi/raw/master/screenshot/1.png)
-![alt text](https://github.com/vastril4o/kodi/raw/master/screenshot/2.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/1.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/2.png)
 * Run add-on again to generate files
 
-### Installation / Setup add-on (IPTV Simple Client)
+## Installation / Setup add-on (IPTV Simple Client)
 * Enable IPTV Simple Client if you missing TV section in Kodi, else skip this. Add-on location in Kodi:"Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client" > Settings > Enable. If this add-on is missing, go to [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) wiki page
 * Settings
-![alt text](https://github.com/vastril4o/kodi/raw/master/screenshot/3.png)
-![alt text](https://github.com/vastril4o/kodi/raw/master/screenshot/4.png)
-![alt text](https://github.com/vastril4o/kodi/raw/master/screenshot/5.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/3.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/4.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/5.png)
