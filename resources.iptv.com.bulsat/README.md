@@ -17,7 +17,7 @@ Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files
 ## Installation / Setup add-on (IPTV Simple Client)
 * Enable IPTV Simple Client if you missing TV section in Kodi, else skip this. Add-on location:
 ```
-Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client" > Settings > Enable
+Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client > Enable
 ```
 If this add-on is missing, go to [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) wiki page
 * Settings
