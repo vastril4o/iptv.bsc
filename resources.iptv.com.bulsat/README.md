@@ -22,9 +22,12 @@ Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client > Enable
 If this add-on is missing, go to [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) wiki page
 * Settings
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/3.png)
+Point to generated .m3u file
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/4.png)
+Point to generated .xml.gz file
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/5.png)
+Point to extracted folder from this zip: [logos](https://github.com/vastril4o/kodi/raw/master/logos.zip)
 
 ### Issues (known)
-* Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported in [Kodi](https://kodi.tv), only .png
+* Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported by [Kodi](https://kodi.tv), only .png
 * Channel .m3u stream cookie is expiring on every 2 hours, so you need to run add-on again to generate valid .m3u streem fail
