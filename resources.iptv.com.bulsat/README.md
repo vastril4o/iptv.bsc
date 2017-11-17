@@ -11,8 +11,7 @@ This plugin is not officially commisioned/supported by Bulsatcom. The trademark 
 * [Request](http://kodi.wiki/view/Add-on:Requests) add-on, this is service add-on to make web requests.
 * Channel [logos](https://github.com/vastril4o/kodi/raw/master/logos.zip) for [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) (optional)
 
-## Installation add-on (resources.iptv.com.bulsat)
-* Prepare [Kodi](https://kodi.tv) for installation
+## Prepare Kodi
 ```
 Settings > System (enable Exper mode)
 ```
@@ -23,14 +22,20 @@ Add-ons > Unknow sources > enabled
 Manage Dependencies > Request (only cheking if it is installed)
 ```
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/6.jpg)
-* Install add-on from [zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.com.bulsat.zip)
+
+## Installation add-on (resources.iptv.com.bulsat)
+* Download add-on [zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.com.bulsat.zip)
+* Install add-on
+```
+Add-ons/Add-ons Browser/Install from zip file/ (select downloaded zip)
+```
 * Settings
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/1.jpg)
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/2.jpg)
-* Run add-on again to generate files
+* Run add-on to generate files
 
 ## Installation / Setup add-on (IPTV Simple Client)
-* Enable IPTV Simple Client if you missing TV section in Kodi or skip this. Add-on location:
+* Enable IPTV Simple Client if you missing TV section in Kodi or skip this
 ```
 Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client > Enable
 ```
