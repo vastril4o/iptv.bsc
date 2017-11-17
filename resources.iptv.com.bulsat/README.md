@@ -1,6 +1,9 @@
 # resources.iptv.com.bulsat
 Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).
 
+### Disclaimer
+This plugin is not officially commisioned/supported by Bulsatcom. The trademark "Bulsatcom" is registered by "Bulsatcom"
+
 ## Requirements
 * Active user registration in [www.bulsat.com](http://www.bulsat.com)
 * [Kodi](https://kodi.tv) media player
