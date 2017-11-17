@@ -40,11 +40,8 @@ Add-ons/Add-ons Browser/Install from zip file/ (select downloaded zip)
 Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client > Enable
 ```
 * Settings
-* Point to generated .m3u file
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/3.jpg)
-* Point to generated .xml.gz file
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/4.jpg)
-* Point to extracted [logos](https://github.com/vastril4o/kodi/raw/master/logos.zip) folder
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/5.jpg)
 
 ## Issues (known)
