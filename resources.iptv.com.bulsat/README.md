@@ -16,10 +16,10 @@ This plugin is not officially commisioned/supported by Bulsatcom. The trademark 
 Settings > System (enable Exper mode)
 ```
 ```
-Add-ons > Unknow sources > enabled
+Settings > System > Add-ons > Unknow sources > enabled
 ```
 ```
-Manage Dependencies > Request (only cheking if it is installed)
+Settings > System > Add-ons > Manage Dependencies > request (check if it installed)
 ```
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/6.jpg)
 
