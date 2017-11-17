@@ -37,7 +37,7 @@ Add-ons/Add-ons Browser/Install from zip file/ (select downloaded zip)
 ## Installation / Setup add-on (IPTV Simple Client)
 * Enable [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) if you missing TV section in Kodi or skip this
 ```
-Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client > Enable
+Add-ons > My add-ons > PVR clients > PVR IPTV Simple Client > enable
 ```
 * Settings
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/3.jpg)
