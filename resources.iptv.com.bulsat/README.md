@@ -11,8 +11,8 @@ Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files
 ## Installation add-on (resources.iptv.com.bulsat)
 * Install add-on from [zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.com.bulsat.zip)
 * Settings
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/1.png)
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/2.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/1.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/2.png)
 * Run add-on again to generate files
 
 ## Installation / Setup add-on (IPTV Simple Client)
@@ -23,11 +23,11 @@ Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client > Enable
 If this add-on is missing, go to [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) wiki page
 * Settings
 * Point to generated .m3u file
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/3.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/3.png)
 * Point to generated .xml.gz file
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/4.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/4.png)
 * Point to extracted folder from this zip: [logos](https://github.com/vastril4o/kodi/raw/master/logos.zip)
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/howto/5.png)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/5.png)
 
 ## Issues (known)
 * Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported by [Kodi](https://kodi.tv), only .png
