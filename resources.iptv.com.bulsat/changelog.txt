@@ -1,3 +1,6 @@
+v171117.1
+- add epg cashe setting and logyc
+
 v171115.1
 - remove logo download from add-on (decoding .svg file in png is hard work for kodi)
 

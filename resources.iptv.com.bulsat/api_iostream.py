@@ -49,3 +49,18 @@ def save_epg(live):
     f_lmx.write(out.getvalue())
     f_lmx.close()
     out.close()
+
+
+def load_epg():
+    # check if file exist in folder
+    if os.path.exists(_files_path + '/bulsat.xml.gz') == False:
+        return False
+    
+    # get file modification (create time)
+    file_epg_mod_time = os.path.getmtime(_files_path + '/bulsat.xml.gz')
+    
+    # check it it is 
+    if time.time() - file_epg_mod_time < 60 * 60 * 24 * 6:
+        return True
+
+    return False
