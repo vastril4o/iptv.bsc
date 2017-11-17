@@ -47,3 +47,4 @@ Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client > Enable
 ## Issues (known)
 * Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported by [Kodi](https://kodi.tv)
 * Channel .m3u stream urls expiring on every 2 hours, so you need to run add-on again to generate valid .m3u streem
+* Add bugs or problems on project [issue](https://github.com/vastril4o/kodi/issues) page
