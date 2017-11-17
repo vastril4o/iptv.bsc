@@ -9,6 +9,21 @@ Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files
 * Channel [logos](https://github.com/vastril4o/kodi/raw/master/logos.zip) for [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client)
 
 ## Installation add-on (resources.iptv.com.bulsat)
+* Prepare [Kodi](https://kodi.tv) for installation
+```
+Settings > System
+```
+```
+Expert mode
+```
+```
+Add-ons > Unknow sources > enabled
+```
+```
+Manage Dependencies > Request
+```
+If you can`t find [Request](http://kodi.wiki/view/Add-on:Requests), you need to install it first
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/6.png)
 * Install add-on from [zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.com.bulsat.zip)
 * Settings
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/1.png)
