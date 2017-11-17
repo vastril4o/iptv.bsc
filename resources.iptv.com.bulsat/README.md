@@ -9,7 +9,7 @@ This plugin is not officially commisioned/supported by Bulsatcom. The trademark 
 * [Kodi](https://kodi.tv) media player
 * [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) to watch IPTV on [Kodi](https://kodi.tv)
 * [Request](http://kodi.wiki/view/Add-on:Requests) add-on, this is service add-on to make web requests.
-* Channel [logos](https://github.com/vastril4o/kodi/raw/master/logos.zip) for [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) (optional)
+* Channel [logos](https://github.com/vastril4o/kodi/raw/master/logos.zip) for [IPTV Simple Client](http://kodi.wiki/view/Add-on:IPTV_Simple_Client)
 
 ## Prepare Kodi
 ```
