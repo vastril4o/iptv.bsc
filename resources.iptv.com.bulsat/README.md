@@ -27,7 +27,7 @@ Settings > System > Add-ons > Manage Dependencies > request (check if it install
 * Download add-on [zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.com.bulsat.zip)
 * Install add-on
 ```
-Add-ons/Add-ons Browser/Install from zip file/ (select downloaded zip)
+Add-ons > Add-ons Browser > Install from zip file > select downloaded zip
 ```
 * Settings
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/1.jpg)
