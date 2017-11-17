@@ -2,7 +2,7 @@
 Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).
 
 ### Disclaimer
-This plugin is not officially commisioned/supported by Bulsatcom. The trademark "Bulsatcom" is registered by "Bulsatcom"
+This plugin is not officially commisioned/supported by Bulsatcom. The trademark "Bulsatcom" is registered by "Bulsatcom", visit [www.bulsat.com](http://www.bulsat.com).
 
 ## Requirements
 * Active user registration in [www.bulsat.com](http://www.bulsat.com)
@@ -35,11 +35,10 @@ Add-ons/Add-ons Browser/Install from zip file/ (select downloaded zip)
 * Run add-on to generate files
 
 ## Installation / Setup add-on (IPTV Simple Client)
-* Enable IPTV Simple Client if you missing TV section in Kodi or skip this
+* Enable [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) if you missing TV section in Kodi or skip this
 ```
 Add-ons/My add-ons/PVR clients/PVR IPTV Simple Client > Enable
 ```
-If this add-on is missing, go to [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) wiki page
 * Settings
 * Point to generated .m3u file
 ![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/3.jpg)
