@@ -61,6 +61,9 @@ def load_epg():
     
     # check it it is 
     if time.time() - file_epg_mod_time < 60 * 60 * 24 * 5:
+        # debug
+        api_debug.show_notifycation('EPG cashe True')
+        
         return True
 
     return False
