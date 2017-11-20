@@ -60,7 +60,7 @@ def load_epg():
     file_epg_mod_time = os.path.getmtime(_files_path + '/bulsat.xml.gz')
     
     # check it it is 
-    if time.time() - file_epg_mod_time < 60 * 60 * 24 * 6:
+    if time.time() - file_epg_mod_time < 60 * 60 * 24 * 5:
         return True
 
     return False
