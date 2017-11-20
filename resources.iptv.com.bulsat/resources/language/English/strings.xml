@@ -5,24 +5,24 @@
     <string id="1000">Login</string>
     <string id="101">User</string>
     <string id="102">Password</string>
-
-    <!-- server -->
-    <string id="2000">Server</string>
-    <string id="201">Advanced options</string>
-    <string id="202">API URL</string>
-    <string id="203">API URL channel</string>
-    <string id="204">API URL epg</string>
-	<string id="205">Timeout request (s)</string>
-    
-    <!-- more -->
-    <string id="3000">More</string>
-    <string id="301">Notifications</string>
-    <string id="302">Debug</string>
     
     <!-- files -->
-    <string id="4000">Files</string>
-    <string id="401">Files path</string>
-    <string id="402">EPG download (7 days channel info)</string>
-    <string id="403">EPG use cashe (5 days)</string>
-    <string id="404">IPTV Simple client reload</string>
+    <string id="2000">Files</string>
+    <string id="201">Files path</string>
+    <string id="202">EPG download (7 days channel info)</string>
+    <string id="203">EPG use cashe (5 days)</string>
+    <string id="204">IPTV Simple client reload</string>
+
+    <!-- server -->
+    <string id="3000">Server</string>
+    <string id="301">Advanced</string>
+    <string id="302">API URL</string>
+    <string id="303">OS</string>
+	<string id="304">Timeout request (s)</string>
+    
+    <!-- more -->
+    <string id="4000">More</string>
+    <string id="401">Notifications</string>
+    <string id="402">Debug</string>
+    
 </strings>

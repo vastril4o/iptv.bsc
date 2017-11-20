@@ -1,3 +1,6 @@
+v171120.1
+- add samsung agent for more channels
+
 v171117.1
 - add epg cashe setting and logyc
 
@@ -16,11 +19,11 @@ v171113.2
 v171113.1
 - clear epg data from programs missing title
 
-v17.11.12
+v171112
 - epg xml download
 - epg xml write to file
 
-v17.11.11
+v171111
 - Login
 - Live m3u download
 - Live m3u write to file

@@ -11,8 +11,10 @@ import api_debug
 _addon = xbmcaddon.Addon()
 _url = _addon.getSetting('settings_api_url')
 _timeout = float(_addon.getSetting('settings_timeout'))
+_os = int(_addon.getSetting('settings_os'))
 
 _s = requests.Session()
+
 _ua = {
     'Host':'api.iptv.bulsat.com',
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
@@ -24,9 +26,16 @@ _ua = {
     'Connection':'keep-alive'
 }
 
+_os_list = ['pcweb', 'samsungtv']
+
        
 def login(username, password):
-    r = _s.post(_url + '/' + 'auth', timeout = _timeout, headers = _ua)
+    url_auth = 'auth'
+    # change auth url for diffrent then 'pcweb'
+    if _os != 0:
+        url_auth = '?' + url_auth
+    
+    r = _s.post(_url + '/' + url_auth, timeout = _timeout, headers = _ua)
     key = r.headers['challenge']
     session = r.headers['ssbulsatapi']
     
@@ -38,12 +47,12 @@ def login(username, password):
     enc = aes.AESModeOfOperationECB(key)
     password_crypt = enc.encrypt(password + (16 - len(password) % 16) * '\0')
     
-    r = _s.post(_url + '/' + 'auth', timeout = _timeout, headers = _ua, data = {
+    r = _s.post(_url + '/' + url_auth, timeout = _timeout, headers = _ua, data = {
         'user':['', username],
-        'device_id':['', 'pcweb'],
-        'device_name':['', 'pcweb'],
-        'os_version':['', 'pcweb'],
-        'os_type':['', 'pcweb'],
+        'device_id':['', _os_list[_os]],
+        'device_name':['', _os_list[_os]],
+        'os_version':['', _os_list[_os]],
+        'os_type':['', _os_list[_os]],
         'app_version':['', '0.01'],
         'pass':['', base64.b64encode(password_crypt)]
     })
