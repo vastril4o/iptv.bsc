@@ -1,3 +1,6 @@
+v171127.1
+- fix error when login fails (no channels and epg writing)
+
 v171120.1
 - add samsung agent for more channels
 
