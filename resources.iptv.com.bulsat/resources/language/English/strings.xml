@@ -9,9 +9,10 @@
     <!-- files -->
     <string id="2000">Files</string>
     <string id="201">Files path</string>
-    <string id="202">EPG download (7 days channel info)</string>
-    <string id="203">EPG use cashe (5 days)</string>
-    <string id="204">IPTV Simple client reload</string>
+    <string id="202">Channel cache (1 hour)</string>
+    <string id="203">EPG download (7 days)</string>
+    <string id="204">EPG cache (5 days)</string>
+    <string id="205">IPTV Simple client reload</string>
 
     <!-- server -->
     <string id="3000">Server</string>

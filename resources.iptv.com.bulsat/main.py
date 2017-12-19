@@ -15,7 +15,8 @@ _password = _addon.getSetting('settings_password')
 _files_path = _addon.getSetting('settings_files_path')
 _iptv_simple_reload = _addon.getSetting('settings_iptv_simple_reload')
 _download_epg = _addon.getSetting('settings_epg')
-_cashe_epg = _addon.getSetting('settings_epg_cash')
+_cache_epg = _addon.getSetting('settings_epg_cache')
+_cache_channel = _addon.getSetting('settings_channel_cache')
 
 
 if not _user or not _password or not _files_path:
@@ -29,16 +30,19 @@ else:
     api_debug.update_progress(20)
 
     # channel
-    json_channel = api_data.get_channel(session)
-    api_debug.update_progress(40)
-    api_iostream.save_channel(json_channel)
-    api_debug.update_progress(60)
+    # check for old file
+    # channel session 2h
+    if _cache_channel == 'false' or api_iostream.load_channel() == False:
+        json_channel = api_data.get_channel(session)
+        api_debug.update_progress(40)
+        api_iostream.save_channel(json_channel)
+        api_debug.update_progress(60)
     
     # epg
     if _download_epg == 'true':
-        # check for old epg file and check if it is more then 5 days old
-        # epg contain program data for 7 days
-        if _cashe_epg == 'false' or api_iostream.load_epg() == False:
+        # check for old file
+        # epg data 7 days
+        if _cache_epg == 'false' or api_iostream.load_epg() == False:
             json_epg = api_data.get_epg(json_channel)
             api_debug.update_progress(80)
             api_iostream.save_epg(json_epg)

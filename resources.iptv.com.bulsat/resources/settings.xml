@@ -11,9 +11,11 @@
         <setting id="sep2" label="2000" type="lsep"/>
 		<setting label="201" type="folder" id="settings_files_path" default="" option="writeable"/>
 		<setting id="sep21" label="4000" type="lsep"/>
-		<setting label="202" type="bool" id="settings_epg" default="false"/>
-		<setting label="203" type="bool" id="settings_epg_cash" default="true" enable="!eq(-1,false)"/>
-		<setting label="204" type="bool" id="settings_iptv_simple_reload" default="true"/>
+		<setting label="202" type="bool" id="settings_channel_cache" default="true"/>
+		<setting label="203" type="bool" id="settings_epg" default="false"/>
+		<setting label="204" type="bool" id="settings_epg_cache" default="true" enable="!eq(-1,false)"/>
+		<setting type="sep"/>
+		<setting label="205" type="bool" id="settings_iptv_simple_reload" default="true"/>
     </category>
 
     <category label="3000">

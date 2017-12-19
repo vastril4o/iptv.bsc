@@ -54,18 +54,36 @@ def save_epg(live):
         out.close()
 
 
+def load_channel():
+    # check if file exist in folder
+    if os.path.exists(_files_path + '/bulsat.m3u') == False:
+        return False
+    
+    # get file modification (create time)
+    file_time = os.path.getmtime(_files_path + '/bulsat.m3u')
+    
+    # check it it is 
+    if time.time() - file_time < 60 * 60 * 1:
+        # debug
+        api_debug.show_notifycation('Channel cache')
+        
+        return True
+
+    return False
+
+
 def load_epg():
     # check if file exist in folder
     if os.path.exists(_files_path + '/bulsat.xml.gz') == False:
         return False
     
     # get file modification (create time)
-    file_epg_mod_time = os.path.getmtime(_files_path + '/bulsat.xml.gz')
+    file_time = os.path.getmtime(_files_path + '/bulsat.xml.gz')
     
     # check it it is 
-    if time.time() - file_epg_mod_time < 60 * 60 * 24 * 5:
+    if time.time() - file_time < 60 * 60 * 24 * 5:
         # debug
-        api_debug.show_notifycation('EPG cashe True')
+        api_debug.show_notifycation('EPG cache')
         
         return True
 

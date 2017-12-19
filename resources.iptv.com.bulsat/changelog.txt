@@ -1,3 +1,6 @@
+v171219.1
+- add channel file cashe for 1 hour
+
 v171127.1
 - fix error when login fails (no channels and epg writing)
 
