@@ -21,17 +21,17 @@ Settings > System > Add-ons > Unknow sources > enabled
 ```
 Settings > System > Add-ons > Manage Dependencies > request (check if it installed)
 ```
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/6.jpg)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.bsc/resources/6.jpg)
 
 ## Installation add-on (resources.iptv.com.bulsat)
-* Download add-on [zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.com.bulsat.zip)
+* Download add-on [zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.bsc.zip)
 * Install add-on
 ```
 Add-ons > Add-ons Browser > Install from zip file > select downloaded zip
 ```
 * Settings
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/1.jpg)
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/2.jpg)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.bsc/resources/1.jpg)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.bsc/resources/2.jpg)
 * Run add-on to generate files
 
 ## Installation / Setup add-on (IPTV Simple Client)
@@ -40,9 +40,9 @@ Add-ons > Add-ons Browser > Install from zip file > select downloaded zip
 Add-ons > My add-ons > PVR clients > PVR IPTV Simple Client > enable
 ```
 * Settings
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/3.jpg)
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/4.jpg)
-![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.com.bulsat/resources/5.jpg)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.bsc/resources/3.jpg)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.bsc/resources/4.jpg)
+![alt text](https://github.com/vastril4o/kodi/blob/master/resources.iptv.bsc/resources/5.jpg)
 
 ## Issues (known)
 * Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported by [Kodi](https://kodi.tv)
