@@ -1,0 +1,44 @@
+v180122.1
+- project rename
+
+v171219.1
+- add channel file cashe for 1 hour
+
+v171127.1
+- fix error when login fails (no channels and epg writing)
+
+v171120.1
+- add samsung agent for more channels
+
+v171117.1
+- add epg cashe setting and logyc
+
+v171115.1
+- remove logo download from add-on (decoding .svg file in png is hard work for kodi)
+
+v171114.2
+- fix loading notification
+
+v171114.1
+- reload m3u file in iptv simple client when run this addon (force iptv simple client to restart)
+
+v171113.2
+- add .png to channel tv-logo tag [channel name + .png]
+
+v171113.1
+- clear epg data from programs missing title
+
+v171112
+- epg xml download
+- epg xml write to file
+
+v171111
+- Login
+- Live m3u download
+- Live m3u write to file
+
+v1.1
+- Init icon and fanart
+
+v1.0
+- Initial Release
