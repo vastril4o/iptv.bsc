@@ -1,3 +1,6 @@
+v20180124.1
+- fix project auto startup
+
 v180122.1
 - project rename
 

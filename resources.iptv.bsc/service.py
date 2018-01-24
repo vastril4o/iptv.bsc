@@ -1,3 +1,3 @@
 import xbmc
 
-xbmc.executebuiltin('RunScript(resources.iptv.com.bulsat, False)')
+xbmc.executebuiltin('RunScript(resources.iptv.bsc, False)')
