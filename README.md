@@ -1,4 +1,4 @@
-# resources.iptv.com.bulsat
+# resources.iptv.bsc
 Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).
 * Download [add-on zip](https://github.com/vastril4o/kodi/raw/master/resources.iptv.bsc.zip)
 * Installation [guide](https://github.com/vastril4o/kodi/tree/master/resources.iptv.bsc)

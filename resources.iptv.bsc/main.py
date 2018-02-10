@@ -54,7 +54,6 @@ else:
         # reset iptv simple
         jsonIPTVtoggle = '{"jsonrpc":"2.0","method":"Addons.SetAddonEnabled","params":{"addonid":"pvr.iptvsimple","enabled":"toggle"},"id":1}'
         
-        
         xbmc.executeJSONRPC(jsonIPTVtoggle)
         xbmc.sleep(1000)
         xbmc.executeJSONRPC(jsonIPTVtoggle)
