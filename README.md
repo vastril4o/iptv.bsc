@@ -49,3 +49,8 @@ You can find all channel logo png files in /resources/logos/256 which are also c
 * Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported by [Kodi](https://kodi.tv)
 * Channel .m3u stream urls expiring on every 2 hours, so you need to run add-on again to generate valid .m3u streem
 * Add bugs or problems on project [issue](https://github.com/vasil-dev/resources.iptv.bsc/issues) page
+
+## Screenshot
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot1.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot2.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot3.jpg)
