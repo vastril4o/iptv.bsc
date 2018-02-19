@@ -5,7 +5,6 @@ Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files
 ### Disclaimer
 This plugin is not officially commisioned/supported by Bulsatcom. The trademark "Bulsatcom" is registered by "Bulsatcom", visit [www.bulsat.com](http://www.bulsat.com)
 
-
 ## Screenshot
 ![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot1.jpg)
 ![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot2.jpg)
@@ -16,6 +15,7 @@ This plugin is not officially commisioned/supported by Bulsatcom. The trademark 
 * [Kodi](https://kodi.tv) media player
 * [IPTV Simple Client - win](http://kodi.wiki/view/Add-on:IPTV_Simple_Client) / [IPTV Simple Client - ubuntu](http://kodi.wiki/view/Ubuntu_PVR_add-ons) to watch IPTV on [Kodi](https://kodi.tv)
 * [Request](http://kodi.wiki/view/Add-on:Requests) add-on, this is service add-on to make web requests.
+* [IPTV BSC](https://github.com/vasil-dev/resources.iptv.bsc/raw/master/resources.iptv.bsc.zip) add-on zip.
 
 ## Prepare Kodi
 ```
