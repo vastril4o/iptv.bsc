@@ -1,9 +1,15 @@
 ![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/icon.png)
 # resources.iptv.bsc
-Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).
+Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com)
 
 ### Disclaimer
-This plugin is not officially commisioned/supported by Bulsatcom. The trademark "Bulsatcom" is registered by "Bulsatcom", visit [www.bulsat.com](http://www.bulsat.com).
+This plugin is not officially commisioned/supported by Bulsatcom. The trademark "Bulsatcom" is registered by "Bulsatcom", visit [www.bulsat.com](http://www.bulsat.com)
+
+
+## Screenshot
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot1.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot2.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot3.jpg)
 
 ## Requirements
 * Active user registration in [www.bulsat.com](http://www.bulsat.com)
@@ -50,7 +56,3 @@ You can find all channel logo png files in /resources/logos/256 which are also c
 * Channel .m3u stream urls expiring on every 2 hours, so you need to run add-on again to generate valid .m3u streem
 * Add bugs or problems on project [issue](https://github.com/vasil-dev/resources.iptv.bsc/issues) page
 
-## Screenshot
-![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot1.jpg)
-![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot2.jpg)
-![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/screenshot3.jpg)
