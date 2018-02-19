@@ -1,3 +1,6 @@
+v20180219
+- icon change whit org and project attr changed
+
 v20180124.1
 - fix project auto startup
 
