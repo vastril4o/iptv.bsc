@@ -30,8 +30,8 @@ Settings > System > Add-ons > Manage Dependencies > request (check if it is inst
 Add-ons > Add-ons Browser > Install from zip file > select downloaded zip
 ```
 * Settings
-![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/1.jpg)
-![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/2.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/1.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/2.jpg)
 * Run add-on to generate files
 
 ## Installation / Setup add-on (IPTV Simple Client)
@@ -40,9 +40,10 @@ Add-ons > Add-ons Browser > Install from zip file > select downloaded zip
 Add-ons > My add-ons > PVR clients > PVR IPTV Simple Client > enable
 ```
 * Settings
-![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/3.jpg)
-![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/4.jpg)
-![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/5.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/3.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/4.jpg)
+![alt text](https://github.com/vasil-dev/resources.iptv.bsc/blob/master/resources/5.jpg)
+You can find all channel logo png files in /resources/logos/256 which are also contained in downloaded zip.
 
 ## Issues (known)
 * Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported by [Kodi](https://kodi.tv)
