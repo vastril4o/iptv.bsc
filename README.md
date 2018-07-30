@@ -1,4 +1,5 @@
 Support this project :) [buy me a coffe whit PayPal](http://www.paypal.me/VasilValchev/2)
+<a class="github-button" href="http://www.paypal.me/VasilValchev/2" data-size="large">PayPal</a>
 
 ![alt text](https://github.com/vasildev/resources.iptv.bsc/blob/master/icon.png)
 # resources.iptv.bsc
@@ -58,3 +59,4 @@ You can find all channel logo png files in /resources/logos/256 which are also c
 * Channel .m3u stream urls expiring on every 2 hours, so you need to run add-on again to generate valid .m3u streem
 * Add bugs or problems on project [issue](https://github.com/vasildev/resources.iptv.bsc/issues) page
 
+<script async defer src="https://buttons.github.io/buttons.js"></script>
