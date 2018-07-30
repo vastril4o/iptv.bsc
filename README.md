@@ -1,5 +1,4 @@
-Support this project :) [buy me a coffe whit PayPal](http://www.paypal.me/VasilValchev/2)
-<a class="github-button" href="http://www.paypal.me/VasilValchev/2" data-size="large">PayPal</a>
+Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/2)
 
 ![alt text](https://github.com/vasildev/resources.iptv.bsc/blob/master/icon.png)
 # resources.iptv.bsc
