@@ -1,4 +1,4 @@
-Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/2)
+### Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/2)
 
 ![alt text](https://github.com/vasildev/resources.iptv.bsc/blob/master/icon.png)
 # resources.iptv.bsc
@@ -57,5 +57,3 @@ You can find all channel logo png files in /resources/logos/256 which are also c
 * Logos in [www.bulsat.com](http://www.bulsat.com) are in .svg format which is unsuported by [Kodi](https://kodi.tv)
 * Channel .m3u stream urls expiring on every 2 hours, so you need to run add-on again to generate valid .m3u streem
 * Add bugs or problems on project [issue](https://github.com/vasildev/resources.iptv.bsc/issues) page
-
-<script async defer src="https://buttons.github.io/buttons.js"></script>
