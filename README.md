@@ -1,7 +1,7 @@
-### Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/2)
+### Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/1)
 
-![alt text](https://github.com/vasildev/resources.iptv.bsc/blob/master/icon.png)
-# resources.iptv.bsc
+![alt text](/blob/master/icon.png)
+# iptv.bsc
 [Add-on](https://github.com/vasildev/resources.iptv.bsc/raw/master/resources.iptv.bsc.zip) for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com)
 
 ### Disclaimer
