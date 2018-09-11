@@ -1,8 +1,8 @@
 ### Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/2)
 
 # iptv.bsc
-Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com)
-[Download](/download/iptv.bsc.zip)
+Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).\n
+[Download](raw/master/download/iptv.bsc.zip)
 
 ### Disclaimer
 This plugin is not officially commisioned/supported by Bulsatcom. The trademark "Bulsatcom" is registered by "Bulsatcom", visit [www.bulsat.com](http://www.bulsat.com)
