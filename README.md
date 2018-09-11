@@ -1,8 +1,7 @@
-### Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/2)
-
 # iptv.bsc
 [Download](/download/iptv.bsc.zip) last version.<br/>
-Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).
+Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).<br/>
+Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/2)
 
 ## Screenshot
 ![alt text](/src/resources/screenshot1.jpg)
@@ -32,8 +31,7 @@ Settings > System > Add-ons > Manage Dependencies > request (check if it is inst
 Add-ons > Add-ons Browser > Install from zip file > select downloaded zip
 ```
 * Settings
-** Sign in your bulsat credential
-** Set download paths
+Open addon and set your bulsat credential and download path for files
 * Run add-on to generate files
 
 ## Installation / Setup (IPTV Simple Client)
@@ -42,7 +40,7 @@ Add-ons > Add-ons Browser > Install from zip file > select downloaded zip
 Add-ons > My add-ons > PVR clients > PVR IPTV Simple Client > enable
 ```
 * Settings
-** Set your location to downloaded files from iptv.bsc
+Set your location to match your downloaded files from iptv.bsc
 
 You can find all channel logo png files in src/resources/logos/256 which are also contained in downloaded zip.
 
