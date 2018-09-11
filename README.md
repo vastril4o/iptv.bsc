@@ -6,8 +6,6 @@ Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files
 
 ## Screenshot
 ![alt text](/src/resources/screenshot1.jpg)
-![alt text](/src/resources/screenshot2.jpg)
-![alt text](/src/resources/screenshot3.jpg)
 
 ## Requirements
 * Active user registration in [www.bulsat.com](http://www.bulsat.com)
