@@ -2,8 +2,6 @@
 
 # iptv.bsc
 [Download](/download/iptv.bsc.zip) last version.<br/>
-
-## Info
 Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).
 
 ## Screenshot
