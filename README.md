@@ -1,5 +1,10 @@
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+Download last version [here](/download/iptv.bsc.zip)
+
 # iptv.bsc
-[Download](/download/iptv.bsc.zip) last version.<br/>
 Add-on for [Kodi](https://kodi.tv), this addon will generate .m3u and .xml files for channel stream and epg data from [www.bulsat.com](http://www.bulsat.com).<br/>
 Support this project :) you can buy me a coffe whit [PayPal](http://www.paypal.me/VasilValchev/2)
 
