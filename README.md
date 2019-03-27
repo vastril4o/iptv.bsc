@@ -41,9 +41,8 @@ Open addon and set your bulsat credential and download path for files
 Add-ons > My add-ons > PVR clients > PVR IPTV Simple Client > enable
 ```
 * Settings
-Set your location to match your downloaded files from iptv.bsc
-
-You can find all channel logo png files in src/resources/logos/256 which are also contained in downloaded zip.
+Set playlist file location to match your downloaded files from iptv.bsc
+channel logo png files can be download as zip from /download/logos/ folder.
 
 ### Disclaimer
 This plugin is not officially commisioned/supported by Bulsatcom. The trademark "Bulsatcom" is registered by "Bulsatcom", visit [www.bulsat.com](http://www.bulsat.com)
