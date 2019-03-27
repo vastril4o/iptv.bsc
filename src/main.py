@@ -8,16 +8,12 @@ import api_data
 import api_login
 import api_iostream
 
-
 _addon = xbmcaddon.Addon()
 _user = _addon.getSetting('settings_username')
 _password = _addon.getSetting('settings_password')
 _files_path = _addon.getSetting('settings_files_path')
 _iptv_simple_reload = _addon.getSetting('settings_iptv_simple_reload')
 _download_epg = _addon.getSetting('settings_epg')
-_cache_epg = _addon.getSetting('settings_epg_cache')
-_cache_channel = _addon.getSetting('settings_channel_cache')
-
 
 if not _user or not _password or not _files_path:
     api_debug.show_notifycation('Settings empty')
@@ -29,24 +25,19 @@ else:
     session = api_login.login(_user, _password)
     api_debug.update_progress(20)
 
-    # channel
-    # check for old file
+    # load data
     # channel session 2h
-    if _cache_channel == 'false' or api_iostream.load_channel() == False:
+    if api_iostream.load_channel() == False:
         json_channel = api_data.get_channel(session)
-        api_debug.update_progress(40)
         api_iostream.save_channel(json_channel)
-        api_debug.update_progress(60)
+        api_debug.update_progress(40)
     
-    # epg
-    if _download_epg == 'true':
-        # check for old file
-        # epg data 7 days
-        if _cache_epg == 'false' or api_iostream.load_epg() == False:
+        # epg
+        if _download_epg == 'true':
             json_epg = api_data.get_epg(json_channel)
-            api_debug.update_progress(80)
             api_iostream.save_epg(json_epg)
-        
+            api_debug.update_progress(60)
+            
     api_debug.update_progress(100)
     api_debug.close_progress()
     

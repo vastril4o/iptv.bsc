@@ -11,10 +11,9 @@ import xbmcaddon
 
 import api_debug
 
-
 _addon = xbmcaddon.Addon()
 _files_path = _addon.getSetting('settings_files_path')
-
+_cache = _addon.getSetting('settings_cache')
 
 def save_channel(live):
     if live[0] != '':
@@ -32,7 +31,6 @@ def save_channel(live):
         f_m3u = open(os.path.join(_files_path, '', 'bulsat.m3u'), 'wb+')
         f_m3u.write(play_list.encode('utf-8', 'replace'))
         f_m3u.close()
-
 
 def save_epg(live):
     if live[0] != '':
@@ -53,8 +51,11 @@ def save_epg(live):
         f_lmx.close()
         out.close()
 
-
 def load_channel():
+    # check if cash is enabled in settings
+    if _cache == 'false':
+        return False
+        
     # check if file exist in folder
     if os.path.exists(_files_path + '/bulsat.m3u') == False:
         return False
@@ -64,27 +65,6 @@ def load_channel():
     
     # check it it is 
     if time.time() - file_time < 60 * 60 * 1:
-        # debug
-        api_debug.show_notifycation('Channel cache')
-        
-        return True
-
-    return False
-
-
-def load_epg():
-    # check if file exist in folder
-    if os.path.exists(_files_path + '/bulsat.xml.gz') == False:
-        return False
-    
-    # get file modification (create time)
-    file_time = os.path.getmtime(_files_path + '/bulsat.xml.gz')
-    
-    # check it it is 
-    if time.time() - file_time < 60 * 60 * 24 * 5:
-        # debug
-        api_debug.show_notifycation('EPG cache')
-        
         return True
 
     return False

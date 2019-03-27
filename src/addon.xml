@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="resources.iptv.bsc"
     name="IPTV BSC" 
-    version="20180911.1"
+    version="190427"
     provider-name="vasil">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>

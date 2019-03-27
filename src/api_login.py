@@ -28,7 +28,6 @@ _ua = {
 
 _os_list = ['pcweb', 'samsungtv']
 
-       
 def login(username, password):
     url_auth = 'auth'
     # change auth url for diffrent then 'pcweb'
@@ -58,7 +57,7 @@ def login(username, password):
     })
     
     # debug
-    api_debug.show_notifycation('Login ' + r.headers['logged'])
+    api_debug.notifycation('Login ' + r.headers['logged'])
     api_debug.log('Login ' + str(r.request.headers))
     
     return session
